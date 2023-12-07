@@ -1,2 +1,10 @@
-package Assignment.RabbitQM.dto;public class User {
+package Assignment.RabbitQM.dto;
+
+import lombok.Data;
+
+@Data
+public class User {
+    private int id;
+    private String firstName;
+    private String lastName;
 }
